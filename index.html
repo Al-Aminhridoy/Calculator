@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator by al amin</title>
+    <link rel="stylesheet" href="css/font-awesome-all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculator</h1>
+        <div class="output" >
+            <textarea id="output" placeholder="0"></textarea>
+        </div>
+        <div class="button-part">
+            <div class="row">
+                <button onclick="clr()">C</button>
+                <button onclick="display('+/-')" disabled>+/-</button>
+                <button onclick="display('%')">%</button>
+                <button onclick="display('/')">/</button>
+            </div>
+            <div class="row">
+                <button onclick="display(7)">7</button>
+                <button onclick="display(8)">8</button>
+                <button onclick="display(9)">9</button>
+                <button onclick="display('*')">&#215;</button>
+            </div>
+            <div class="row">
+                <button onclick="display(4)">4</button>
+                <button onclick="display(5)">5</button>
+                <button onclick="display(6)">6</button>
+                <button onclick="display('-')">-</button>
+            </div>
+            <div class="row">
+                <button onclick="display(1)">1</button>
+                <button onclick="display(2)">2</button>
+                <button onclick="display(3)">3</button>
+                <button onclick="display('+')">+</button>
+                
+            </div>
+            <div class="row">
+                <button onclick="display(0)">0</button>
+                <button onclick="display('.')">.</button>
+                <button onclick="del()">&#8592;</button>
+                <button onclick="result()">=</button>               
+            </div>
+        </div>
+    </div>
+  
+        <h4>Copyright : Designed a Calculator Using Html CSS by Al Amin</h4>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
